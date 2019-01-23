@@ -59,10 +59,10 @@ export default class Graph extends Component {
             categoryLookup: inputs/category_lookup.yaml
             pathTotriggerJson: inputs/Trigger_node_ip.json
             pathTocorpus: inputs/corpus
-          
+
           outputs:
             dummy: /home/DS_DATA_HOME
-          
+
           graph:
             - node_name: contentmeta_creation
               inputs: [DS_DATA_HOME, pathTotriggerJson]
@@ -71,7 +71,7 @@ export default class Graph extends Component {
               arguments:
                 copy_to: /home/DS_DATA_HOME
                 file_name: contentMeta
-          
+
             - node_name: content_to_text
               inputs: [contentmeta_creation.pathTocontentMeta]
               outputs: [timestamp_folder]
@@ -103,23 +103,23 @@ export default class Graph extends Component {
                     image_to_text: none
                     pdf_to_text: PyPDF2
                     ecml_index_to_text: none
-          
+
             - node_name: keyword_extraction
               inputs: [pathTotaxonomy, categoryLookup, content_to_text.timestamp_folder, pathTocorpus]
               outputs: [pathTocontentKeywords]
-              operation: contentTagging.KeywordExtraction 
-              arguments: 
+              operation: contentTagging.KeywordExtraction
+              arguments:
                 extract_keywords: tagme
                 filter_criteria: none
                 update_corpus: 0
                 filter_score_val: 0.4
                 num_keywords: 5
-          
+
             - node_name: write_to_elastic_search
               inputs: [content_to_text.timestamp_folder]
               outputs: []
               operation: contentTagging.WriteToElasticSearch
-          
+
             - node_name: corpus_creation
               inputs: [pathTotaxonomy, keyword_extraction.pathTocontentKeywords]
               outputs: [root_path, path_to_corpus]
@@ -127,10 +127,10 @@ export default class Graph extends Component {
               arguments:
                 keyword_folder_name: tagme_none
                 update_corpus: True
-                word_preprocess: 
+                word_preprocess:
                    delimitter: "_"
                    method: stem_lem
-          
+
             - node_name: content_taxonomy_scoring
               inputs: [contentmeta_creation.pathTocontentMeta, pathTotaxonomy, corpus_creation.root_path, corpus_creation.path_to_corpus]
               outputs: [path_to_timestampFolder, path_to_distMeasure, path_to_domain_level]
@@ -149,14 +149,14 @@ export default class Graph extends Component {
                   taxonomy:
                     column: Subject
                     alignment_depth: Chapter Name
-          
+
             - node_name: predict_tag
               inputs: [content_taxonomy_scoring.path_to_timestampFolder]
               outputs: [path_to_predictedTags]
               operation: contentTagging.PredictTag
               arguments:
                 window: 5
-          
+
             - node_name: generate_observed_tag
               inputs: [contentmeta_creation.pathTocontentMeta, pathTotaxonomy, content_taxonomy_scoring.path_to_timestampFolder]
               outputs: [path_to_timestampFolder, path_to_observedtag, path_to_predictedtag]
@@ -166,7 +166,7 @@ export default class Graph extends Component {
                 level: Chapter Name
                 tax_known_tag: Grade
                 content_known_tag: gradeLevel
-          
+
             - node_name: evaluation
               inputs: [generate_observed_tag.path_to_timestampFolder, generate_observed_tag.path_to_observedtag, generate_observed_tag.path_to_predictedtag]
               outputs: [path_to_agg_precision, path_to_nonagg_precision]
@@ -218,7 +218,7 @@ export default class Graph extends Component {
 
           {this.state.displayContent ? (
             <Fragment>            <div className="cont-style">
-            <div className= "code-container"> 
+            <div className= "code-container">
               <SyntaxHighlighter className="data"
                 language="javascript"
                 showLineNumbers="true"
@@ -226,7 +226,7 @@ export default class Graph extends Component {
               >
                 {this.state.content}
               </SyntaxHighlighter>
-         
+
             </div>
             </div>
                  <button
