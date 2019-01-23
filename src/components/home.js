@@ -47,6 +47,8 @@ export default class Graph extends Component {
                 - [sklearn.linear_model, LogisticRegression]`,
           text: "Java"
         },
+
+        
         {
           id: "2",
           value:`experiment_name: Content_tagging
