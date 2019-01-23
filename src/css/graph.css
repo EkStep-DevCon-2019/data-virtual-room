@@ -1,0 +1,53 @@
+.textarea {
+    height: 100vh;
+    width: 100%;
+}
+.graph {
+    padding: 15vh
+}
+.ui.card {
+    margin: 1em 0;
+    width: 28vh;
+    padding: 2vh;
+    margin-bottom: 3vh;
+}
+.process {
+    padding:2vh;
+    background: aliceblue;
+}
+ .bargraph {
+    margin-top: 10vh ;
+    box-shadow: 0px 2px 6px;
+}
+.container {
+    width:100%;
+    /* height:50vh; */
+}
+.cont-style{
+    position: relative;
+    overflow: hidden;
+}
+.code-container{
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 150px;
+}
+.code-container::-webkit-scrollbar {
+    display: none;
+  }
+.data, .cont-style {
+    width: 160vh;
+    height: 70vh;
+}
+
+.ui.primary.button, .ui.primary.buttons .button  {
+    margin:4vh;
+}
+/* .ui.inverted.dimmer .ui.loader{
+    color: black;
+    font-style: sans;
+    font-size: 3rem;
+} */
+
