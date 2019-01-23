@@ -5,6 +5,7 @@ import DisplayGraph from "./graphs";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/styles/hljs";
 import { Container, Card, Form } from "semantic-ui-react";
+
 export default class Graph extends Component {
   componentWillMount() {
     this.setState({
@@ -13,13 +14,11 @@ export default class Graph extends Component {
           id: "1",
           value: `experiment_name: Example1_Iris_Classification
           owner: sunbird
-            
           inputs:
             raw_data: "inputs/iris.csv"
           outputs:
             report: 'outputs/model_report'
             model: 'outputs/model'
-          
           graph:
             - node_name: split
               inputs: raw_data
@@ -32,7 +31,6 @@ export default class Graph extends Component {
                     test_size: 0.2
               imports:
                 - [sklearn.model_selection, train_test_split]
-          
             - node_name: model_logistic_regression
               inputs: split.train
               outputs: [report, model]

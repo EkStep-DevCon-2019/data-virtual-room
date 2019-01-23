@@ -1,6 +1,7 @@
 import React from 'react';
 import HeatMap from 'react-heatmap-grid';
 import '../css/HeatMap.css'
+import Axios from 'axios';
 
 class GraphMap extends React.Component{
 
@@ -16,6 +17,19 @@ class GraphMap extends React.Component{
     }
 
     netWorkCallHandler(){
+       
+       Axios.get(`http://localhost:3002/visitor_idea_ratings`)
+       .then(res=> {
+           console.log(res.data)
+       })
+       
+       
+       
+       
+       
+       
+       
+       
         let x = new Array(33).fill(0).map((_, i) => `${i}`);
         let y = new Array(20).fill(0).map((_,i)=> `${i}`)
         let x_y = new Array(y.length)

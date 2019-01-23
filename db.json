@@ -1,19 +1,1112 @@
 {
-  "posts": [
+  "adjusted_ratings": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "Idea": "Id_1", 
+      "Rating": 0.05
+    }, 
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "Idea": "Id_3", 
+      "Rating": -0.18
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0.41
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": -0.15
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0.05
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": -0.07
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": -0.14
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": -0.02
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0.15
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0.06
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": -0.14
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0.25
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": -0.12
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": -0.14
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ], 
+  "visitor_idea_ratings": [
+    {
+      "Idea": "Id_1", 
+      "Rating": 2, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_1", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 2, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_10", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 2, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_11", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_12", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 3, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_13", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 2, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_14", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_2", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_3", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 5, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_4", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_5", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 1, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_6", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_7", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_8", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "1"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "2"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "3"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "4"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "5"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "6"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "7"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "8"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "9"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "10"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "11"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "12"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "13"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "14"
+    }, 
+    {
+      "Idea": "Id_9", 
+      "Rating": 0, 
+      "Visitor": "15"
+    }
+  ]
 }
