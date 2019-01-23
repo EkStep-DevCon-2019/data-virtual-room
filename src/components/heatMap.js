@@ -20,15 +20,8 @@ class GraphMap extends React.Component{
        
        Axios.get(`http://localhost:3002/visitor_idea_ratings`)
        .then(res=> {
-           console.log(res.data)
-       })
-       
-       
-       
-       
-       
-       
-       
+           
+       })  
        
         let x = new Array(33).fill(0).map((_, i) => `${i}`);
         let y = new Array(20).fill(0).map((_,i)=> `${i}`)
