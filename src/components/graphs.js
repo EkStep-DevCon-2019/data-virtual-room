@@ -2,23 +2,15 @@ import React from 'react'
 import { Divider, Grid, Image, Segment } from 'semantic-ui-react';
 import GraphMap from './heatMap';
 import BarGraph from './barGraph';
+import '../css/graph.css'
+import { Tab } from 'semantic-ui-react'
 
-const DividerExampleVertical = () => (
-  <Segment>
-    <Grid columns={2} relaxed='very'>
+const panes = [
+  { menuItem: 'Ideas vs Rating', render: () => <Tab.Pane><BarGraph/></Tab.Pane> },
+  { menuItem: 'Heat Map', render: () => <Tab.Pane> <GraphMap/> </Tab.Pane> },
+  
+]
 
-      <Grid.Column>
-        <GraphMap/>
-      </Grid.Column>
+const TabExampleDefaultActiveIndex = () => <Tab panes={panes} defaultActiveIndex={0} />
 
-      <Grid.Column>
-      <BarGraph/>
-      </Grid.Column>
-
-    </Grid>
-
-    <Divider vertical>And</Divider>
-  </Segment>
-)
-
-export default DividerExampleVertical
+export default TabExampleDefaultActiveIndex
