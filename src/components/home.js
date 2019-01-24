@@ -2,11 +2,65 @@ import React, { Component, Fragment } from "react";
 import "../css/graph.css";
 import Navbar from "./navbar";
 import DisplayGraph from "./graphs";
+import axios from 'axios';
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/styles/hljs";
 import { Container, Card, Form } from "semantic-ui-react";
 
 export default class Graph extends Component {
+  componentDidMount(){
+    if (this.props.location.state == undefined) {
+      this.props.history.push('/')
+  }
+  else {
+      this.generateStartTelemetry(this.props.location.state);
+      if (this.props.location.state.coinsGiven === undefined) {
+          this.setState({ coins: 0 })
+      }
+      else {
+          if (sessionStorage.getItem("coins") == null) {
+              this.setState({ coins: this.props.location.state.coinsGiven })
+          }
+          else {
+              this.setState({ coins: sessionStorage.getItem("coins") })
+          }
+
+      }
+  }
+  }
+
+
+  generateStartTelemetry(visitorInfo) {
+    const edata = { type: "bazaar", mode: "play" };
+    // const did = machineIdSync();
+    const telemetry = {
+        eid: "DC_START",
+        did: '98912984-c4e9-5ceb-8000-03882a0485e4',
+        ets: (new Date()).getTime(),
+        dimensions: {
+            'visitorId': visitorInfo.code,
+            'visitorName': visitorInfo.name,
+            'stallId': "STA7",
+            'stallName': "Bazaar",
+            'ideaId': "IDE17",
+            'ideaName': "Data Room",
+            'edata': edata
+        }
+    }
+    const event = telemetry;
+    const request = {
+        "events": [event]
+    };
+
+    console.log('telemetry request', request)
+
+    axios.post(`http://52.172.188.118:3000/v1/telemetry`, request)
+        .then(data => {
+            console.log("telemetry registered successfully", data);
+        }).catch(err => {
+            console.log("telemetry registration error", err);
+        })
+}
   componentWillMount() {
     this.setState({
       options: [
@@ -48,7 +102,7 @@ export default class Graph extends Component {
           text: "Java"
         },
 
-        
+
         {
           id: "2",
           value:`experiment_name: Content_tagging
