@@ -21,7 +21,7 @@ import { Redirect } from 'react-router';
   render() {
     const trigger = (
       <span>
-        <Image avatar src={sessionStorage.getItem("userProfileImage")} />
+        <Image avatar src='https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png' size='mini' />
       </span>
     )
 
@@ -31,9 +31,9 @@ import { Redirect } from 'react-router';
         <Menu inverted>
           <Menu.Item>
             <Image size="mini"
-              src="https://cdn2.iconfinder.com/data/icons/world-currencies-gold/512/indian_rupee_sign_currency_gold_symbol-512.png"
+              src="https://clipart.info/images/ccovers/1495750444Gold-Coins-PNG-Clipart.png"
               verticalAlign='middle' />
-            <span>{(this.props.credits==null)?0:this.props.credits}</span>
+            <span><b>{this.props.credits}</b></span>
           </Menu.Item>
           <Menu.Item position='right' >
           <Dropdown trigger={trigger} pointing='top right' icon={null}>
