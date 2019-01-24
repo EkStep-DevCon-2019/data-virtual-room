@@ -19,7 +19,7 @@ class BarGraph extends React.Component {
     }
 
     networkCallHandler() {
-        Axios.get(`http://172.16.0.137:1235/ML/getIdeaRatings`)
+        Axios.get(`http://13.127.255.37:1235/ML/getIdeaRatings`)
             .then((res) => {
                 console.log(res.data)
                 let user_rating = [];
